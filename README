@@ -1,0 +1,4 @@
+A core extension for levenshtein providing String#levenshtein
+
+require 'levenshtein'
+"foo".levenshtein("boo") == 1
